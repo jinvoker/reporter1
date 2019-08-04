@@ -11,6 +11,7 @@ shell=$(echo $SHELL |cut -b 6-)" "$(echo $BASH_VERSION)
 packages=$(dpkg -l | wc -l)
 resolution=$(xdpyinfo | grep 'dimension' | cut -b 18-34)
 up=$(uptime | cut -b 13-18)
+memory="free-"$(free -h | grep Mem | cut -d" " -f 13)" / Used-"$(free -h | grep Mem | cut -d" " -f 21)
 
 # Print the preprocessed system info.
 echo""
@@ -25,4 +26,5 @@ echo "SHELL        :" \ $shell
 echo "PACKAGES     :" \ $packages
 echo "RESOLUTION   :" \ $resolution
 echo "UPTIME       :"\ $up
+echo "RAM          :" \ $memory
 echo""
