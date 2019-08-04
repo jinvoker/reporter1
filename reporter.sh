@@ -12,7 +12,7 @@ packages=$(dpkg -l | wc -l)
 resolution=$(xdpyinfo | grep 'dimension' | cut -b 18-34)
 up=$(uptime | cut -b 13-18)
 memory="free-"$(free -h | grep Mem | cut -d" " -f 13)" / Used-"$(free -h | grep Mem | cut -d" " -f 21)
-
+cpu=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -c 13-70)
 # Print the preprocessed system info.
 echo""
 echo "          "$machine
@@ -27,4 +27,5 @@ echo "PACKAGES     :" \ $packages
 echo "RESOLUTION   :" \ $resolution
 echo "UPTIME       :"\ $up
 echo "RAM          :" \ $memory
+echo "CPU          :"\ $cpu
 echo""
