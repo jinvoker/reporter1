@@ -1,8 +1,10 @@
 #!/bin/bash
+#LANG=C
+#LANGUAGE=C
+#LC_ALL=C
 echo "REPORTER : The Bash System Information Tool"
 echo "-------------------------------------------"
 machine=$(whoami)"@"$(uname -n)
-
 kernel=$(uname -r)
 architecture=$(uname -m)
 host=$(uname -n)
@@ -12,8 +14,8 @@ shell=$(echo $SHELL |cut -b 6-)" "$(echo $BASH_VERSION)
 packages=$(dpkg -l | wc -l)
 resolution=$(xdpyinfo | grep 'dimension' | cut -b 18-34)
 up=$(uptime | cut -b 13-19)
-memory="Total-"$(free -h | grep Mem | cut -d" " -f 13)" / Used-"$(free -h | grep Mem | cut -d" " -f 21) # display bug in few distros.
-cpu=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -c 13-50)
+memory="Total-"$(free -h | grep "Mem" | cut -c 15-20)" / Used-"$(free -h | grep "Mem" | cut -c 28-35) # display bug in few distros.
+cpu=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -c 13-55)
 gpu=$(lspci | grep "Display controller" | cut -c 28-145)
 # Print the preprocessed system info.
 echo""
