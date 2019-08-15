@@ -1,11 +1,9 @@
 <h1 align="center">REPORTER</h1>
 
+![Object Layout](image.png)
 
 Simple system information reporter
 Reporter is a simple Unix/linux system information reporting tool 
-
-![Object Layout](image.png)
-
 
 Akin to already existing programs such screenfetch and neofetch. Reporter borrows aesthetic appeal  from programs such as screenfetch and neofetch. All of the code is completely written from scratch.
 
