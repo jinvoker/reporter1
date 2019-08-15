@@ -1,4 +1,6 @@
-# REPORTER
+<h1 align="center">REPORTER</h1>
+
+
 Simple system information reporter
 Reporter is a simple Unix/linux system information reporting tool 
 
