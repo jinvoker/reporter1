@@ -1,7 +1,8 @@
 <h1 align="center">REPORTER</h1>
 
-![Object Layout](image.png)
+
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/jinvoker/reporter/blob/master/LICENSE)
+<a href="https://github.com/jinvoker/reporter/releases"><img src="https://img.shields.io/github/release/jinvoker/reporter"></a>
 
 Simple system information reporter
 Reporter is a simple Unix/linux system information reporting tool 
