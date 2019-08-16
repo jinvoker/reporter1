@@ -8,6 +8,9 @@
 Reporter is a simple Unix/linux system information reporting tool 
 
 Akin to already existing programs such screenfetch and neofetch. Reporter borrows aesthetic appeal  from programs such as screenfetch and neofetch. All of the code is completely written from scratch.
+yet another screenshot program ,Aimed to remain simple and minimalistic with merely under 20 lines of code.
+
+but also the workings of bash to a newbie user.
 
 
 
@@ -32,9 +35,6 @@ chmod +x reporter
 This will create a copy of reporer in /usr/locale/bin directory to be used universally by the os.
 
 
-yet another screenshot program ,Aimed to remain simple and minimalistic with merely under 20 lines of code.
-
-but also the workings of bash to a newbie user.
 
 ### WORKINGS
 
