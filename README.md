@@ -43,6 +43,8 @@ The picture below might give an overview of the code within. The script is divid
 
 
 ### CONTRIBUTE
+### Like contributing to Free and Open Source software ?
+
 ### You can contribute :
 
 * Anyone can contribute code.
