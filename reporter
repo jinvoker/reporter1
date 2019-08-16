@@ -5,34 +5,44 @@
 echo "REPORTER : The Bash System Information Tool"
 echo "-------------------------------------------"
 machine=$(whoami)"@"$(uname -n)
-kernel=$(uname -r)
-architecture=$(uname -m)
-host=$(uname -n)
 distro=$(lsb_release -d | cut -f 2 | cut -d" " -f -3)
 codename=$(lsb_release -d | cut -f 2 | cut -d" " -f 4)
-shell=$(echo $SHELL |cut -b 6-)" "$(echo $BASH_VERSION)
-packages=$(dpkg -l | wc -l)
+ostype=$(echo $OSTYPE)
+architecture=$(uname -m)
+kernel=$(uname -r)
+desktop=$(echo $DESKTOP_SESSION)
 resolution=$(xdpyinfo | grep 'dimension' | cut -b 18-34)
+shell=$(echo $SHELL |cut -b 6-)" "$(echo $BASH_VERSION)
 up=$(uptime | cut -b 13-19)
-memory="Total-"$(free -h | grep "Mem" | cut -c 15-20)" / Used-"$(free -h | grep "Mem" | cut -c 28-35) # display bug in few distros.
+packages=$(dpkg -l | grep -c '^ii')
+ram="Total-"$(free -h | grep "Mem" | cut -c 15-20)" / Used-"$(free -h | grep "Mem" | cut -c 28-35) # display bug in few distros.
 cpu=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -c 13-55)
 gpu=$(lspci | grep "Display controller" | cut -c 28-145)
-# Print the preprocessed system info.
+# PRINT THE PREPROCESSED SYSTEM INFO.
 echo""
 echo "          "$machine
 echo""
-echo "KERNEL       :" \ $kernel
-echo "ARCHITECTURE :" \ $architecture
-echo "HOSTNAME     :" \ $host
 echo "DISTRO       :" \ $distro
 echo "CODENAME     :" \ $codename
-echo "SHELL        :" \ $shell
-echo "PACKAGES     :" \ $packages
+echo "OSTYPE       :" \ $ostype
+echo "ARCHITECTURE :" \ $architecture
+echo "KERNEL       :" \ $kernel
+echo "DESKTOP      :" \ $desktop
 echo "RESOLUTION   :" \ $resolution
+echo "SHELL        :" \ $shell
 echo "UPTIME       :"\ $up
-echo "RAM          :" \ $memory
+echo "PACKAGES     :" \ $packages
+echo "RAM          :" \ $ram
 echo "CPU          :"\ $cpu
 echo "GPU          :"\ $gpu
 echo ""
 echo $'\e[49m'"    " $'\e[107m'"    "$'\e[49m'"    "$'\e[103m'"    "$'\e[49m'"    "$'\e[106m'"    "$'\e[49m'"    "$'\e[102m'"    "$'\e[49m'"    "$'\e[105m'"    "$'\e[49m'"    "$'\e[101m'"    "$'\e[49m'"    "$'\e[44m'"    "$'\e[49m'"    "
 echo""
+
+
+
+
+
+
+
+
