@@ -46,7 +46,7 @@ The picture below might give an overview of the code within. The script is divid
 ### You can contribute :
 
 * Anyone can contribute code.
-* Beginners trying a hand at writing bash scripts and want to contribute are welcomed.
+* Beginners trying a hand at writing bash scripts and want to contribute are welcomed and treated friendly.
 * Any tiny bit of help will be appreciated and you will be added to the list of contributors.
 * Start by considering this program your own (code released under GPLv2) and make it better.
 * Help by adding documentation and fixing whitespaces.
