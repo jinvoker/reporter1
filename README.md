@@ -29,7 +29,7 @@ chmod +x reporter
 ./reporter
 ```
 
-This will create a copy of reporer in /usr/locale/bin directory to be used by os.
+This will create a copy of reporer in /usr/locale/bin directory to be used universally by the os.
 
 
 yet another screenshot program ,Aimed to remain simple and minimalistic with merely under 20 lines of code.
