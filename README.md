@@ -5,13 +5,12 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/jinvoker/reporter/blob/master/LICENSE)
 
 
-Reporter is a simple Unix/linux system information reporting tool 
+<b><i>Reporter</i></b> is a simple Unix/linux system information reporting tool. In simple terms it is serves as a 'screenshot program'. Reporter is aimed to remain simple,fast and minimalistic with merely under 50 lines of code, it is also designed in such a way that the workings are clear to a newbie bash user and to invite more people to join the development.   
 
-Akin to already existing programs such screenfetch and neofetch. Reporter borrows aesthetic appeal  from programs such as screenfetch and neofetch. All of the code is completely written from scratch.
-yet another screenshot program ,Aimed to remain simple and minimalistic with merely under 20 lines of code.
+Akin to already existing screenshot programs, Reporter borrows aesthetic appeal  from programs such as screenfetch and neofetch, however all of the code is completely written from scratch.
 
-but also the workings of bash to a newbie user.
 
+Here’s how reporter looks on Linux Mint:
 
 
 ### INSTALLATION
@@ -32,11 +31,13 @@ chmod +x reporter
 ./reporter
 ```
 
-This will create a copy of reporer in /usr/locale/bin directory to be used universally by the os.
+Additionally create a copy of Reporter in /usr/locale/bin directory to be used universally and on demand by the os.
 
 
 
 ### WORKINGS
+### It's simple !
+
 
 Understanding whats in the code is essential to know how the code is implemented and also to contribute back in ways, if you would like to.
 The picture below might give an overview of the code within. The script is divided and highlighted into two sections the secion in blue shows the logic of the bash script to be displayed later in the green section. For eg., the  line of code underlined (in red) in the bleu section is the same code to be displayed in the green section(underlined in red as well). Comments are placed in areas diffucult to understand. Want to know more about the code here have a look -<a href="https://github.com/jinvoker/reporter/blob/master/reporter">reporter</a>
