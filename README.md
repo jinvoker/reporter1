@@ -40,8 +40,8 @@ Additionally create a copy of Reporter in /usr/locale/bin directory to be used u
 ### It's simple !
 
 
-Understanding whats in the code is essential to know how the code is implemented and also to contribute back in ways, if you would like to.
-The picture below might give an overview of the code within. The script is divided and highlighted into two sections the secion in blue shows the logic of the bash script to be displayed later in the green section. For eg., the  line of code underlined (in red) in the bleu section is the same code to be displayed in the green section(underlined in red as well).
+Understanding what's in the code is essential to know how the code is implemented and also to contribute back in ways, if you would like to.
+The picture below might give an overview of the code within. The script is divided and highlighted into two sections, the secion in blue shows the logic of the bash script to be displayed later in the green section. For eg., the  line of code underlined (in red) in the blue section is the same code to be displayed in the green section(underlined in red as well).
 <img src="code.png"></a> 
 
 Comments are placed in areas diffucult to understand. Want to know more about the code here have a look -<a href="https://github.com/jinvoker/reporter/blob/master/reporter">reporter</a>
@@ -49,6 +49,9 @@ Comments are placed in areas diffucult to understand. Want to know more about th
 
 ### CONTRIBUTE
 ### Like contributing to Free and Open Source software ?
+><b><i>" Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something. "</b></i>
+                                                                                                               - RMS
+
 
 ### You can contribute :
 
