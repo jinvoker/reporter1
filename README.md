@@ -5,7 +5,7 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/jinvoker/reporter/blob/master/LICENSE)
 
 
-<b><i>Reporter</i></b> is a simple Unix/linux system information reporting tool. In simple terms it is serves as a 'screenshot program'. Reporter is aimed to remain simple,fast and minimalistic with merely under 50 lines of code, it is also designed in such a way that the workings are clear to a newbie bash user and to invite more people to join the development.   
+<b><i>Reporter</i></b> is a simple Unix / linux system information reporting tool. In simple terms it is serves as a 'screenshot program'. Reporter is aimed to remain simple,fast and minimalistic with merely under 50 lines of code, it is also designed in such a way that the workings are clear to a newbie bash user and to invite more people to join the development.   
 
 Akin to already existing screenshot programs, Reporter borrows aesthetic appeal  from programs such as screenfetch and neofetch, however all of the code is completely written from scratch.
 
@@ -49,8 +49,7 @@ Comments are placed in areas diffucult to understand. Want to know more about th
 
 ### CONTRIBUTE
 ### Like contributing to Free and Open Source software ?
-><b><i>" Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something. "</b></i>
-                                                                                                               - RMS
+><b><i>" Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something. "</b></i>      - RMS
 
 
 ### You can contribute :
