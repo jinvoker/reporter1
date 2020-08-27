@@ -2,7 +2,7 @@
 <p align="center">Simple system information reporter written in Bash.</p>
      
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/jinvoker/reporter/blob/master/LICENSE)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/jinvoker/reporter1/blob/master/LICENSE)
 
 
 <b><i>Reporter</i></b> is a simple Unix / linux system information reporting tool. In simple terms it is serves as a 'screenshot program'. Reporter is aimed to remain simple,fast and minimalistic with merely under 50 lines of code, it is also designed in such a way that the workings are clear to a newbie bash user and to invite more people to join the development.   
